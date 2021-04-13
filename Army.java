@@ -1,6 +1,6 @@
 public class Army extends Starwars
 {
-private boolean counsel;
-private int love;
-
+private String type;
+private double year;
+private String ship;
 }

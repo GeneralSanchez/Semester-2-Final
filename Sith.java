@@ -27,4 +27,19 @@ public class Sith extends Starwars
   {
     this.orders = orders;
   }
+   public String dailyhate()
+    {
+      return super.getName() + "We have the power of the darkside get forced choked by Darth Vader Trekies!";
+    }
+  public String starcomment()
+  {
+    return "You don't know the power of the Dark Side of the force!";
+  }
+  public String toString()
+  {
+     String output = super.toString();
+     output += "\n Sith Power " +powers +
+            "\nWhat are you're Orders " + orders;
+    return output;
+  }
 }

@@ -37,4 +37,20 @@ public void setShip(String ship)//setter
 {
   this.ship = ship;
 }
+ public String dailyhate()
+    {
+      return super.getName() + " We ha armies for everyone liking not like those science nerds";
+    }
+  public String starcomment()
+  {
+    return "GOOD SOLDIERS FOLLOW ORDERS!";
+  }
+  public String toString()
+  {
+     String output = super.toString();
+     output += "\n What army? " +type +
+            "\nTime Period: " + year+
+            "\nWhat ship?" + ship;
+    return output;
+  }
 }

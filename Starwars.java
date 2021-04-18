@@ -15,17 +15,6 @@ public Starwars(String name,String rank,boolean hasfan, int ID,boolean hasside)
   this.ID = ID;
   this.hasside = hasside;
 }
-public String dailyhate()
-{
-  return name + ",know this being in the Star Trek side will only make things be worse. ";
-}
-public abstract String starcomment();
-public String CreateUser()
-{
-   String a = ""+ ID;
-   String b = ""+ rank;
-   return b+a;
-}
 //This is the getter and setter that can be used
 public String getName()//getter
 {
@@ -66,6 +55,17 @@ public boolean gethasSide()//getter
 public void sethasSide(boolean hasside)//setter
 {
   this.hasside = hasside;
+}
+public String dailyhate()
+{
+  return name + ",know this being in the Star Trek side will only make things be worse. ";
+}
+public abstract String starcomment();
+public String CreateUser()
+{
+   String a = ""+ ID;
+   String b = ""+ rank;
+   return b+a;
 }
 public String toString()
 {

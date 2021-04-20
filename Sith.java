@@ -4,9 +4,9 @@ public class Sith extends Starwars
   private String powers;
   private int orders;
   //overloaded constructor that is used 
-  public Sith (String name,String rank,boolean hasfan, int ID,boolean hasside,String powers,int orders)
+  public Sith (String name,String rank,boolean hasfan, int ID,boolean hasside,String weapon,String powers,int orders)
   {
-    super(name,rank,hasfan,ID,hasside);
+    super(name,rank,hasfan,ID,hasside,weapon);
     this.powers = powers;
     this.orders = orders;
   }

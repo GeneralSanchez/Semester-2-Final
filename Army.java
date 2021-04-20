@@ -5,9 +5,9 @@ private String type;//String varible
 private double year;//double variable
 private String ship;//String variable
 //over loaded constructor that is created
-public Army (String name,String rank,boolean hasfan, int ID,boolean hasside,String type,double year,String ship)
+public Army (String name,String rank,boolean hasfan, int ID,boolean hasside,String weapon,String type,double year,String ship)
 {
-  super(name,rank,hasfan,ID,hasside);
+  super(name,rank,hasfan,ID,hasside,weapon);
   this.type = type;
   this.year = year;
   this.ship = ship;

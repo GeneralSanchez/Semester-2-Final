@@ -6,14 +6,16 @@ private String rank;
 private boolean hasfan;
 private int ID;
 private boolean hasside;
+private String weapon;
 //overloaded costructors 
-public Starwars(String name,String rank,boolean hasfan, int ID,boolean hasside)
+public Starwars(String name,String rank,boolean hasfan, int ID,boolean hasside,String weapon)
 {
   this.name= name;
   this.rank = rank;
   this.hasfan = hasfan;
   this.ID = ID;
   this.hasside = hasside;
+  this.weapon = weapon;
 }
 //This is the getter and setter that can be used
 public String getName()//getter
@@ -55,6 +57,14 @@ public boolean gethasSide()//getter
 public void sethasSide(boolean hasside)//setter
 {
   this.hasside = hasside;
+}
+public String getWeapon()
+{
+  return weapon;
+}
+public void setWeapon(String weapon)
+{
+  this.weapon = weapon;
 }
 public String dailyhate()
 {

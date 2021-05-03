@@ -7,6 +7,7 @@ private boolean hasfan;
 private int ID;
 private boolean hasside;
 private String weapon;
+private int grade;
 //overloaded costructors 
 public Starwars(String name,String rank,boolean hasfan, int ID,boolean hasside,String weapon)
 {

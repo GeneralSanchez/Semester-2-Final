@@ -14,6 +14,23 @@ class Main {
     System.out.println();
     Movies User = new Movies();
     boolean exit = false;
+    System.out.println("Just hit enter once in the beggining");
+    while(exit == false)
+    {
+      //problems somewhere here
+    input.nextLine();
+     name = input.nextLine();
+    System.out.println(name);
+    grade = input.nextDouble();
+    System.out.println(grade);
+    String sometmp = User.Order(name,grade);
+    // --------------------------
+    System.out.println ("You have entered: "+sometmp);
+    System.out.println("Keep saying false until you finish");
+    exit = input.nextBoolean(); //hello
+    //Trying to clear the buffer
+    //input.nextLine();
+    }
 // ArrayList<String> names = new ArrayList <String>();
 //  names.add("Star Wars: The Phantom Menace");
 //  names.add("Star Wars: Attack of the Clones");

@@ -59,16 +59,18 @@ for (int i = 0; i < test.size(); i++)
   }
 }
 
-  // public String toString()
-  // {
-  //   String output;
-  //   for (String m : names)
-  //   {
-  //      output = m;
-  //   }
+  public String toString()
+  {
+    //Printing the Movies arraylist which is fin 
+    //If you wanted to add new lines after, you can do += m + "\n"
+    String output = "";
+    for (String m : names)
+    {
+       output += ","+m;
+    }
    
-  //   return output;
-  // }
+    return output;
+  }
 }
 
 

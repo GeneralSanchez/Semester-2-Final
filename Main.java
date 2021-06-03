@@ -37,6 +37,8 @@ class Main {
     //Trying to clear the buffer
     //input.nextLine();
     }
+    System.out.println(User.toString());
+    System.out.println ();
     for (String i : rename)
     {
       System.out.println (i);

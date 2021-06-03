@@ -8,14 +8,12 @@ class Main {
     System.out.println("Andy Sanchez, Semester 2 Final Project");
     
     Scanner input = new Scanner(System.in);
-    String name = input.next();
-    double grade = input.nextDouble();
-    //test = new ArrayList<String>();
+    String name;
+    double grade;
     ArrayList<String> rename = new ArrayList<String>();
     System.out.println();
     Movies User = new Movies();
-    User.Order(name,grade);
-    System.out.println(User.toString());
+    boolean exit = false;
 // ArrayList<String> names = new ArrayList <String>();
 //  names.add("Star Wars: The Phantom Menace");
 //  names.add("Star Wars: Attack of the Clones");

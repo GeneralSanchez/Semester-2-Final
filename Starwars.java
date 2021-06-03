@@ -3,17 +3,17 @@ public abstract class Starwars
   //all the variables that are used
 private String name;
 private String rank;
-private boolean hasfan;
+private boolean isfan;
 private int ID;
 private boolean hasside;
 private String weapon;
 private int grade;
 //overloaded costructors 
-public Starwars(String name,String rank,boolean hasfan, int ID,boolean hasside,String weapon)
+public Starwars(String name,String rank,boolean isfan, int ID,boolean hasside,String weapon)
 {
   this.name= name;
   this.rank = rank;
-  this.hasfan = hasfan;
+  this.isfan = isfan;
   this.ID = ID;
   this.hasside = hasside;
   this.weapon = weapon;
@@ -35,13 +35,13 @@ public void setRank(String rank)//setter
 {
   this.rank = rank;
 }
-public boolean gethasFan()//getter
+public boolean getisFan()//getter
 {
-  return hasfan;
+  return isfan;
 }
-public void sethasFan(boolean hasfan)//setter
+public void setisFan(boolean isfan)//setter
 {
-  this.hasfan = hasfan;
+  this.isfan = isfan;
 }
 public int getID()//getter
 {
@@ -82,7 +82,7 @@ public String toString()
 {
 return "Name: " + name +
       "\nRank: " + rank+
-      "\nhasFan: " + hasfan+
+      "\nisFan: " + isfan+
       "\nID: " + ID +
       "\nhasSide: " + hasside;
 }

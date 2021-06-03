@@ -4,9 +4,9 @@ public class Jedi extends Starwars
   private boolean incounsel;
   private int love;
   //overloaded constructor
-  public Jedi (String name,String rank,boolean hasfan, int ID,boolean hasside,String weapon,boolean incounsel,int love)
+  public Jedi (String name,String rank,boolean isfan, int ID,boolean hasside,String weapon,boolean incounsel,int love)
   {
-    super(name,rank,hasfan,ID,hasside,weapon);
+    super(name,rank,isfan,ID,hasside,weapon);
     this.incounsel = incounsel;
     this.love = love;
   } 

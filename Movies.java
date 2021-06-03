@@ -17,52 +17,55 @@ public class Movies
  names.add ("Star Wars: The Rise of Skywalker");
  }
 
-  public String temp;
+ // public String temp;
   public String comment;
 
-  public void Order ()
+
+public String Order (String some, double number)
+{
+for (int i = 0; i < names.size(); i++)
   {
-for(int i = 0; i<n; i++)
-        {
-            String name = input.next();
-            double grade = input.nextDouble();
-            if (grade<70)
+            if (number <70)
             {
-                names.add(name);
+              String list = names.get(i);
+              if (list.equalsIgnoreCase(some))
+              {
+                return list;
+              }
+                //rename.add(name);
             }
              sort(names);
   }
-   public void sort (ArrayList<String>names)
-    {
-        for (int i = 0; i < names.size(); i++) 
+  return null ;
+}
+public static void sort (ArrayList<String>test)
+{
+  String temp;
+for (int i = 0; i < test.size(); i++) 
   {
-    for (int j = i + 1; j < names.size(); j++) 
+    for (int j = i + 1; j < test.size(); j++) 
     {
-      if (names.get(i).compareTo(names.get(j)) > 0)
+      if (test.get(i).compareTo(test.get(j)) > 0)
       {
        // swapping
-        temp = names.get(i);
-        names.set(i, names.get(j));
-        names.set(j, temp);  
+        temp = test.get(i);
+        test.set(i, test.get(j));
+        test.set(j, temp);  
+      }
     }
   }
-  }
-
-  public String toString()
-  {
-    String output= Order();
-    return output;
-  }
 }
-  
-//    System.out.println(
-//          "The names in alphabetical order are: ");
-//       for (int i = 0; i < n; i++) {
-//              System.out.println(names.get(i));
-//       }
 
-// public String memorablending(String comment)
+  // public String toString()
   // {
-  // String a = comment.toUpperCase().replace ("A","@");
-  // return a;
+  //   String output;
+  //   for (String m : names)
+  //   {
+  //      output = m;
+  //   }
+   
+  //   return output;
   // }
+}
+
+

@@ -1,11 +1,21 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 class Main {
+  //static ArrayList<String> test;
   public static void main(String[] args) {
     System.out.println("Andy Sanchez, Semester 2 Final Project");
+    
+    Scanner input = new Scanner(System.in);
+    String name = input.next();
+    double grade = input.nextDouble();
+    //test = new ArrayList<String>();
+    ArrayList<String> rename = new ArrayList<String>();
     System.out.println();
     Movies User = new Movies();
+    User.Order(name,grade);
+    System.out.println(User.toString());
 // ArrayList<String> names = new ArrayList <String>();
 //  names.add("Star Wars: The Phantom Menace");
 //  names.add("Star Wars: Attack of the Clones");
@@ -99,5 +109,11 @@ class Main {
   //   System.out.println (memorablending("It has been some two amazing years in my CS classes,and as such good things they must come to an end to ealy, It has been a privillage and honor having my teacher who I nicknamed Empress,eventhough she liked Star Trek. I will miss her a lot because she is one of the teachers you will never forget in you life. As Jedi Master Ima-Gun Di said,Lets make the end memoreable! "));
   //   System.out.println (memorablending ("May the force be with you!"));
    }
+   // public String memorablending(String comment)
+  // {
+  // String a = comment.toUpperCase().replace ("A","@");
+  // return a;
+  // }
+
   
 }

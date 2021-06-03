@@ -13,29 +13,24 @@ class Main {
     ArrayList<String> rename = new ArrayList<String>();
     System.out.println();
     Movies User = new Movies();
+    System.out.println(User.toString());
     boolean exit = false;
     System.out.println("Just hit enter once in the beggining");
     while(exit == false)
     {
-      //problems somewhere here
     input.nextLine();
+    System.out.println ("Enter the name of the Star Wars Movies");
      name = input.nextLine();
-    System.out.println(name);
+     System.out.println("Enter a number grade for the movies");
     grade = input.nextDouble();
-    System.out.println(grade);
     String sometmp = User.Order(name,grade);
-    // --------------------------
-    //Somehow not entering if on second run
+  
     if (!sometmp.isEmpty())
       {
-        System.out.println("Its in");
         rename.add(sometmp);
       }
-    System.out.println ("You have entered: "+sometmp);
     System.out.println("Keep saying false until you finish");
     exit = input.nextBoolean(); //hello
-    //Trying to clear the buffer
-    //input.nextLine();
     }
     System.out.println(User.toString());
     System.out.println ();

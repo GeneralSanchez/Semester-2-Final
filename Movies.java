@@ -25,15 +25,11 @@ public String Order (String some, double number)
 {
 for (int i = 0; i < names.size(); i++)
   {
-    System.out.println("In loop, iter#" + i);
             if (number <70)
             {
-              System.out.println("In outer if");
               String list = names.get(i);
               if (list.equalsIgnoreCase(some))
               {
-                System.out.println("Added to the list");
-                System.out.println (list);
                 return list; 
               }
             }
@@ -66,7 +62,7 @@ for (int i = 0; i < test.size(); i++)
     String output = "";
     for (String m : names)
     {
-       output += ","+m;
+       output += m+"\n";
     }
    
     return output;

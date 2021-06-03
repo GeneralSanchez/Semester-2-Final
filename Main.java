@@ -37,6 +37,10 @@ class Main {
     //Trying to clear the buffer
     //input.nextLine();
     }
+    for (String i : rename)
+    {
+      System.out.println (i);
+    }
 // ArrayList<String> names = new ArrayList <String>();
 //  names.add("Star Wars: The Phantom Menace");
 //  names.add("Star Wars: Attack of the Clones");

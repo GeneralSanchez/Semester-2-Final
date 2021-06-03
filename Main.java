@@ -25,6 +25,12 @@ class Main {
     System.out.println(grade);
     String sometmp = User.Order(name,grade);
     // --------------------------
+    //Somehow not entering if on second run
+    if (!sometmp.isEmpty())
+      {
+        System.out.println("Its in");
+        rename.add(sometmp);
+      }
     System.out.println ("You have entered: "+sometmp);
     System.out.println("Keep saying false until you finish");
     exit = input.nextBoolean(); //hello

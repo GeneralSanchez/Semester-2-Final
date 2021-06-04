@@ -18,15 +18,15 @@ public String Singalong(Starwars Wars)
   return "With a "+ Wars.getWeapon()+"on my hand and force on my side"+
         "\nI'll turn this tragegic Star Trek into dust"+
         "\nI give those forgotten Star Trek Fans a chance to be reborn"+
-        "\nI hear their cries and alllow to tranform to"+ Wars.getName()+
+        "\nI hear their cries and allow to tranform to"+Wars.getRank()+","+ Wars.getName()+
         "\nSoon Star Trek will be destoryed,Soon its Star Wars time";
 }
 public String toString()
 {
   String output = name+",I will win and I will rise "+
-      "\nAll of Star Trek Destroyed "+
+      "\nAll of Star Trek Destroyed,all your"+years+"years of loyalty gone"+
       "\nNo more Star Trek and no more science"+
-      "\nStar Wars will be number one";
+      "\nStar Wars will be number one,"+name;
       return output;
 }
 

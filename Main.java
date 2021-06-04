@@ -2,9 +2,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-class Main {
+class Main
+{
   //static ArrayList<String> test;
-  public static void main(String[] args) {
+  public static void main(String[] args) 
+  {
     System.out.println("Andy Sanchez, Semester 2 Final Project");
     
     // Scanner input = new Scanner(System.in);
@@ -50,13 +52,13 @@ if (Way.equalsIgnoreCase("Jedi"))
   String nom2 = JOptionPane.showInputDialog("How much love do you show to your troops!(1-100)");
   boolean parsedNom1 = Boolean.parseBoolean(nom1);
   int parsedNom2 = Integer.parseInt(nom2);
-Jedi light = new Jedi (nam1,nam2,parsedNam3,parsedNam4,parsedNam5,nam6,parsedNom1,parsedNom2);
-Wars.add(light);
-System.out.println("Some remiders:");
-System.out.println (light.dailyhate());
-System.out.println (light.starcomment());
-System.out.println("This is the list of Star Wars movies in alphabet order!");
-System.out.println(User.toString());
+  Jedi light = new Jedi (nam1,nam2,parsedNam3,parsedNam4,parsedNam5,nam6,parsedNom1,parsedNom2);
+  Wars.add(light);
+  System.out.println("Some remiders:");
+  System.out.println (light.dailyhate());
+  System.out.println (light.starcomment());
+  System.out.println("This is the list of Star Wars movies in alphabet order!");
+  System.out.println(User.toString());
 }
 else if (Way.equalsIgnoreCase("Sith"))
 {

@@ -39,7 +39,7 @@ public void setShip(String ship)//setter
 }
  public String dailyhate()
     {
-      return super.getName() + " We ha armies for everyone liking not like those science nerds";
+      return super.getName() + " We ha armies for everyones liking not like those science nerds";
     }
   public String starcomment()
   {

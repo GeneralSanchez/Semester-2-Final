@@ -9,16 +9,16 @@ class Main
   {
     System.out.println("Andy Sanchez, Semester 2 Final Project");
     
-    // Scanner input = new Scanner(System.in);
+     Scanner input = new Scanner(System.in);
     //The Arrays that are being used
     ArrayList<Startrek> Trek = new ArrayList<Startrek>();
     ArrayList<Starwars> Wars = new ArrayList<Starwars>();
-    // ArrayList<String> rename = new ArrayList<String>();
-    // String name;
-    // double grade;
-    // boolean exit = false;
-    // System.out.println();
-     Movies User = new Movies();
+    ArrayList<String> rename = new ArrayList<String>();
+    String name;
+    double grade;
+    boolean exit = false;
+    System.out.println();
+    Movies User = new Movies();
     
    
 //This everething for Star Trek Class
@@ -101,41 +101,38 @@ else
       System.out.println();
       }
     }
-    //if (nam3 == false || num3 > 75)
-    //{
- // System.out.println("Just hit enter once in the beggining");
-    // while(exit == false)
-    // {
-    // input.nextLine();
-    // System.out.println ("Enter the name of the Star Wars Movies");
-    //  name = input.nextLine();
-    //  System.out.println("Enter a number grade for the movies");
-    // grade = input.nextDouble();
-    // String sometmp = User.Order(name,grade);
-  
-    // if (!sometmp.isEmpty())
-    //   {
-    //     rename.add(sometmp);
-    //   }
-    // System.out.println("Keep saying false until you finish");
-    // exit = input.nextBoolean(); 
-    // }
-    // System.out.println(User.toString());
-    // System.out.println ();
-    // for (String i : rename)
-    // {
-    //   System.out.println (i);
-    // }
-   // }
+    if (parsedNam3 == false || parsedNum3 > 75)
+    {
+       System.out.println("Just hit enter once in the beggining");
+    while(exit == false)
+      {
+        input.nextLine();
+        System.out.println ("Enter the name of the Star Wars Movies");
+        name = input.nextLine();
+        System.out.println("Enter a number grade for the movies");
+        grade = input.nextDouble();
+        String sometmp = User.Order(name,grade);
+          if (!sometmp.isEmpty())
+           {
+              rename.add(sometmp);
+           }
+        System.out.println("Keep saying false until you finish");
+        exit = input.nextBoolean(); 
+      }
     
-  //   System.out.println (memorablending("It has been some two amazing years in my CS classes,and as such good things they must come to an end to ealy, It has been a privillage and honor having my teacher who I nicknamed Empress,eventhough she liked Star Trek. I will miss her a lot because she is one of the teachers you will never forget in you life. As Jedi Master Ima-Gun Di said,Lets make the end memoreable! "));
-  //   System.out.println (memorablending ("May the force be with you!"));
+      System.out.println ();
+      for (String i : rename)
+      {
+        System.out.println (i);
+      }
    }
-   // public String memorablending(String comment)
-  // {
-  // String a = comment.toUpperCase().replace ("A","@");
-  // return a;
-  // }
-
-  
+    
+    System.out.println (memorablending("It has been some two amazing years in my CS classes,and as such good things they must come to an end to ealy, It has been a privillage and honor having my teacher who I nicknamed Empress,eventhough she liked Star Trek. I will miss her a lot because she is one of the teachers you will never forget in you life. As Jedi Master Ima-Gun Di said,Lets make the end memoreable! "));
+    System.out.println (memorablending ("May the force be with you!"));
+   }
+   public static String memorablending(String comment)
+    {
+    String a = comment.toUpperCase().replace ("A","@");
+    return a;
+    }
 }

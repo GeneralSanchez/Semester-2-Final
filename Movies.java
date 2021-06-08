@@ -1,8 +1,7 @@
-//import java.util.ArrayList;
-//Comment to check committing issue
 import java.util.*;
 public class Movies
 {
+ public String comment;
  ArrayList<String> names = new ArrayList<String>();
  public Movies ()
  {
@@ -16,10 +15,6 @@ public class Movies
  names.add ("Star Wars: The Last Jedi");
  names.add ("Star Wars: The Rise of Skywalker");
  }
-
- // public String temp;
-  public String comment;
-
 
 public String Order (String some, double number)
 {
@@ -37,6 +32,7 @@ for (int i = 0; i < names.size(); i++)
   }
   return "" ;
 }
+
 public static void sort (ArrayList<String>test)
 {
   String temp;
@@ -57,14 +53,11 @@ for (int i = 0; i < test.size(); i++)
 
   public String toString()
   {
-    //Printing the Movies arraylist which is fin 
-    //If you wanted to add new lines after, you can do += m + "\n"
     String output = "";
     for (String m : names)
     {
        output += m+"\n";
     }
-   
     return output;
   }
 }

@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.ArrayList;//to get the ArrayList working
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
@@ -54,11 +54,13 @@ if (Way.equalsIgnoreCase("Jedi"))
   int parsedNom2 = Integer.parseInt(nom2);
   Jedi light = new Jedi (nam1,nam2,parsedNam3,parsedNam4,parsedNam5,nam6,parsedNom1,parsedNom2);
   Wars.add(light);
-  System.out.println("Some remiders:");
+  System.out.println ("Some remiders:");
   System.out.println (light.dailyhate());
   System.out.println (light.starcomment());
-  System.out.println("This is the list of Star Wars movies in alphabet order!");
-  System.out.println(User.toString());
+  System.out.println ("This is the list of Star Wars movies in alphabet order!");
+  System.out.println (User.toString());
+  System.out.println (light.CreateUser());
+  //System.out.println("You are really something choosing a Jedi named"+nam1;)
 }
 else if (Way.equalsIgnoreCase("Sith"))
 {
@@ -89,6 +91,7 @@ else
   System.out.println("This is the list of Star Wars movies in alphabet order!");
   System.out.println(User.toString());
 }
+//System.out.println ();
     for (Startrek i: Trek)
     {
       for(Starwars j: Wars)

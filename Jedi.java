@@ -19,6 +19,7 @@ public class Jedi extends Starwars
   {
     this.incounsel = incounsel;
   }
+
   public int getLove()//getters
   {
     return love;
@@ -27,14 +28,17 @@ public class Jedi extends Starwars
   {
     this.love = love;
   }
+
   public String dailyhate()
     {
       return super.getName() + " Those Star Trek fans don't have us Jeid to keep the peace in the galaxy!";
     }
+
   public String starcomment()
   {
     return "MAY THE FORCE BE WITH YOU";
   }
+  
   public String toString()
   {
     String output = super.toString();

@@ -21,6 +21,7 @@ public String Singalong(Starwars Wars)
         "\nI hear their cries and allow to tranform to"+Wars.getRank()+","+ Wars.getName()+
         "\nSoon Star Trek will be destoryed,Soon its Star Wars time";
 }
+
 public String toString()
 {
   String output = name+",I will win and I will rise "+
@@ -28,7 +29,5 @@ public String toString()
       "\nNo more Star Trek and no more science"+
       "\nStar Wars will be number one,"+name;
       return output;
-}
-
-
+  }
 }

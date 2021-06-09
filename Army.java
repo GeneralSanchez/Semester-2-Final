@@ -78,7 +78,7 @@ public class Army extends Starwars
     //this is set and organized for others to see
      String output = super.toString();//acess Starwars
      //this formatswhat is going to be returned
-     output += "\n What army? " +type +
+     output += "\nWhat army? " +type +
             "\nTime Period: " + year+
             "\nWhat ship?" + ship;
     return output;//return this

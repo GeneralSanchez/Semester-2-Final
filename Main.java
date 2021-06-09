@@ -23,13 +23,24 @@ class Main
     ArrayList<Starwars> Wars = new ArrayList<Starwars>();
     ArrayList<String> rename = new ArrayList<String>();
     //end of all arraylist available in main
+    //these are the variables
     String name;
     double grade;
     boolean exit = false;
-    System.out.println();
-    Movies User = new Movies();
+    System.out.println();//extra space
+    Movies User = new Movies();//this is to set it up
+//this is for the polymorphism 
+    Starwars Vader = new Sith("Darth Vader","Lord",true,66,true,"red lighsaber","foce choke",66);
+    Starwars Anakin = new Jedi ("Anakin Skywalker","General/Jedi Knight",true,8108,true,"blue lighsaber",false,100);
+    Starwars Rex = new Army ("Rex","Captain",true,7567,true,"blaster pistol","Clone Army",22,"Venator");
+    //these print out the informatiio
+    System.out.println(Vader.toString());
+    System.out.println();//extra space
+    System.out.println(Anakin.toString());
+    System.out.println();//extra space
+    System.out.println(Rex.toString());
+    System.out.println();//extra space
     
-   
     //This everething for Star Trek Class
     String num1 = JOptionPane.showInputDialog("Enter Name of Star Trek Character");
     String num2 = JOptionPane.showInputDialog("Years with Star Trek be honest!");
@@ -187,7 +198,7 @@ class Main
         System.out.println("Keep saying false until you finish");//to be aware at that time
         exit = input.nextBoolean();//ask for t/f to continue
       }//end of file 
-      input.close();
+      
     
       System.out.println ();
       //for each that print arraylist rename
@@ -196,6 +207,7 @@ class Main
         System.out.println (i);//prints i 
       }
    }
+   input.close();
     //this is what is enetered inside the method
     System.out.println (memorablending("It has been some two amazing years in my CS classes,and as such good things they must come to an end to ealy, It has been a privillage and honor having my teacher who I nicknamed Empress,eventhough she liked Star Trek. I will miss her a lot because she is one of the teachers you will never forget in you life. As Jedi Master Ima-Gun Di said,Lets make the end memoreable! "));
     //this is what is entere int he method

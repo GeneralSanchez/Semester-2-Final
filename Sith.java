@@ -50,7 +50,7 @@ public class Sith extends Starwars
   {
     //returns everthing formated to see what is turned in
      String output = super.toString();
-     output += "\n Sith Power " +powers +
+     output += "\nSith Power " +powers +
               "\nWhat are you're Orders " + orders;
     return output;
   }

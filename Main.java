@@ -12,8 +12,9 @@ class Main
      System.out.println ("------- Star Wars------");
      System.out.println ("--- Andy's Bootcamp----");
      System.out.println ("Welcome to our Bootcamp");
-     System.out.println (" If you are a Star Trek Fan you will go throught the Star Wars mind wash");
-     System.out.println (" If you are Star Wars fan then don't worry kill out");
+     System.out.println ();//for space in console
+     System.out.println ("If you are a Star Trek Fan you will go throught the Star Wars mind wash");
+     System.out.println ("If you are Star Wars fan then don't worry kill out");
      System.out.println ("Let's Begin!");
     //this is the end of greating
      Scanner input = new Scanner(System.in);
@@ -75,8 +76,12 @@ class Main
       //acess the toString
       System.out.println (User.toString());
       //this is to get the user and ID 
-      System.out.println (light.CreateUser());
-      //System.out.println("You are really something choosing a Jedi named"+nam1;)
+      System.out.println ("You're ID is: "+ light.CreateUser());
+      //A little small story
+      System.out.println("You are really something choosing a Jedi name"+nam1+" and choosing your rank of "+ nam2+ "is amazing!");
+      System.out.println ("The clone wars was raging and the use of the" + nam6+ "of the Jedi helped to defeat it");
+      System.out.println("The Jedi showed us"+parsedNom2+"amount of love making us all win the war,even when I lost my brothers");
+      //end of the story
     }//end of if 
     else if (Way.equalsIgnoreCase("Sith"))
     {
@@ -99,7 +104,12 @@ class Main
       //acess the toString
       System.out.println(User.toString());
       //this is to get the user and ID 
-      System.out.println (dark.CreateUser());
+      System.out.println ("You're ID is: "+dark.CreateUser());
+      //A little small story
+      System.out.println("You are really something choosing a Sith name"+nam1+" and choosing your rank of "+ nam2+ "is amazing!");
+      System.out.println ("The clone wars was raging and the use of the" + nam6+ "of the Sith where behind it");
+      System.out.println ("There powers of "+nim2+"was a unnatural,but they made us murder our Jedi using order"+parsedNim2+".They made us murder us,why?");
+      //end of the story
     }//end of if else
     else 
     {
@@ -123,7 +133,12 @@ class Main
       //acess the toString
       System.out.println(User.toString());
       //this is to get the user and ID 
-      System.out.println (universe.CreateUser());
+      System.out.println ("You're ID is: "+ universe.CreateUser());
+      //A little small story
+      System.out.println ("You are really something choosing"+ nem1+ "as your army and "+nam1+" as your name and choosing your rank of "+ nam2+ "is amazing!");
+      System.out.println ("We had coutless battles insde our ship"+nem3+"winning every time that we could!");
+      System.out.println ("The war took down many of our ships,but we could never fail as for guns where warm each time seeing space brought a beutiful scene");
+      //end of the story
     }//end of else
     System.out.println ();//for space
     //this print to of the arraylists

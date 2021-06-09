@@ -8,7 +8,7 @@ private boolean isfan;//asks to see if they a fan
 private int ID;//asks random numbers
 private boolean hasside;//asks to see if they know force
 private String weapon;//ask for the weapont hey use
-//costructors 
+//costructors (overloaded)
 public Starwars(String name,String rank,boolean isfan, int ID,boolean hasside,String weapon)
 {
   this.name= name;//sets to this 
@@ -18,8 +18,10 @@ public Starwars(String name,String rank,boolean isfan, int ID,boolean hasside,St
   this.hasside = hasside;//set to this
   this.weapon = weapon;//set to this
 }
+//constructor to allow Army constructor to work
 public Starwars()
 {
+  //set to something to make the work
   name = "nothing";
   rank = "none";
   isfan = false;
@@ -27,7 +29,7 @@ public Starwars()
   hasside = false;
   weapon = "nada";
 }
-
+//all the getter and setters Starwars
 //This is the getter and setter for Name
 public String getName()//getter
 {
@@ -82,6 +84,7 @@ public void setWeapon(String weapon)
 {
   this.weapon = weapon;//sets it to weapon
 }
+//end of all getters and setter in Starwars
 //This is a brain method
 public String dailyhate()
 {
@@ -101,13 +104,12 @@ public String CreateUser()
 //this organize the informationt that was inputted by the user
 
 public String toString()
-{
+  {
   //returns all of this
-return "Name: " + name +
+    return "Name: " + name +
       "\nRank: " + rank+
       "\nisFan: " + isfan+
       "\nID: " + ID +
       "\nhasSide: " + hasside;
-}
-
+  }
 }//end of Starwars class

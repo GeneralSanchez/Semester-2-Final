@@ -1,6 +1,6 @@
 import java.util.ArrayList;//to get the ArrayList working
-import java.util.Scanner;
-import javax.swing.JOptionPane;
+import java.util.Scanner;//this is the scanner
+import javax.swing.JOptionPane;//this for the Joption
 
 class Main
 {

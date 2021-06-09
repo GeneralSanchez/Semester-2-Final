@@ -187,6 +187,7 @@ class Main
         System.out.println("Keep saying false until you finish");//to be aware at that time
         exit = input.nextBoolean();//ask for t/f to continue
       }//end of file 
+      input.close();
     
       System.out.println ();
       //for each that print arraylist rename

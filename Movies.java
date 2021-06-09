@@ -7,7 +7,7 @@ public class Movies
   //this holds all the list of the arraylist 
   public Movies ()
   {
-    names.add("Star Wars: The Phantom Menace");
+    names.add ("Star Wars: The Phantom Menace");
     names.add ("Star Wars: Attack of the Clones");
     names.add ("Star Wars: Revenge of the Sith");
     names.add ("Star Wars: A New Hope");

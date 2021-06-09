@@ -71,14 +71,18 @@ class Main
       System.out.println ("Some remiders:");
       //to access the brain methods/overriden
       System.out.println (light.dailyhate());
+      System.out.println ();//for space in console
       System.out.println (light.starcomment());
+      System.out.println ();//for space in console
       System.out.println ("This is the list of Star Wars movies in alphabet order!");
+      System.out.println ();//for space in console
       //acess the toString
       System.out.println (User.toString());
       //this is to get the user and ID 
       System.out.println ("You're ID is: "+ light.CreateUser());
+      System.out.println ();//for space in console
       //A little small story
-      System.out.println("You are really something choosing a Jedi name"+nam1+" and choosing your rank of "+ nam2+ "is amazing!");
+      System.out.println("You are really something choosing a Jedi name "+nam1+" and choosing your rank of "+ nam2+ "is amazing!");
       System.out.println ("The clone wars was raging and the use of the" + nam6+ "of the Jedi helped to defeat it");
       System.out.println("The Jedi showed us"+parsedNom2+"amount of love making us all win the war,even when I lost my brothers");
       //end of the story
@@ -98,13 +102,16 @@ class Main
       System.out.println("Some remiders:");
       //to access the brain methods/overriden
       System.out.println (dark.dailyhate());
+      System.out.println ();//for space in console
       //to access the brain methods
       System.out.println (dark.starcomment());
+      System.out.println ();//for space in console
       System.out.println("This is the list of Star Wars movies in alphabet order!");
       //acess the toString
       System.out.println(User.toString());
       //this is to get the user and ID 
       System.out.println ("You're ID is: "+dark.CreateUser());
+      System.out.println ();//for space in console
       //A little small story
       System.out.println("You are really something choosing a Sith name"+nam1+" and choosing your rank of "+ nam2+ "is amazing!");
       System.out.println ("The clone wars was raging and the use of the" + nam6+ "of the Sith where behind it");
@@ -127,13 +134,16 @@ class Main
       System.out.println("Some remiders:");
       //to access the brain methods/overriden
       System.out.println (universe.dailyhate());
+      System.out.println ();//for space in console
       //to access the brain methods
       System.out.println (universe.starcomment());
+      System.out.println ();//for space in console
       System.out.println("This is the list of Star Wars movies in alphabet order!");
       //acess the toString
       System.out.println(User.toString());
       //this is to get the user and ID 
       System.out.println ("You're ID is: "+ universe.CreateUser());
+      System.out.println ();//for space in console
       //A little small story
       System.out.println ("You are really something choosing"+ nem1+ "as your army and "+nam1+" as your name and choosing your rank of "+ nam2+ "is amazing!");
       System.out.println ("We had coutless battles insde our ship"+nem3+"winning every time that we could!");

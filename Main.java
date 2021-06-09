@@ -4,7 +4,9 @@ import javax.swing.JOptionPane;//this for the Joption
 
 class Main
 {
-  //static ArrayList<String> test;
+//----------------------------------------------------
+// This is the final project of the 2020-21 school year
+//----------------------------------------------------
   public static void main(String[] args) 
   {
      System.out.println ("Andy Sanchez, Semester 2 Final Project");
@@ -63,7 +65,6 @@ class Main
 
     //to choose which one they use
     String Way = JOptionPane.showInputDialog("Choose Wisely: Jedi,Sith,or Army");
-  
 
     if (Way.equalsIgnoreCase("Jedi"))
     {
@@ -93,9 +94,9 @@ class Main
       System.out.println ("You're ID is: "+ light.CreateUser());
       System.out.println ();//for space in console
       //A little small story
-      System.out.println("You are really something choosing a Jedi name "+nam1+" and choosing your rank of "+ nam2+ "is amazing!");
-      System.out.println ("The clone wars was raging and the use of the" + nam6+ "of the Jedi helped to defeat it");
-      System.out.println("The Jedi showed us"+parsedNom2+"amount of love making us all win the war,even when I lost my brothers");
+      System.out.println("You are really something choosing a Jedi name "+nam1+" and choosing your rank of "+ nam2+ " is amazing!");
+      System.out.println ("The clone wars was raging and the use of the " + nam6+ " of the Jedi helped to defeat it");
+      System.out.println("The Jedi showed us "+parsedNom2+" amount of love making us all win the war,even when I lost my brothers");
       //end of the story
     }//end of if 
     else if (Way.equalsIgnoreCase("Sith"))
@@ -119,14 +120,15 @@ class Main
       System.out.println ();//for space in console
       System.out.println("This is the list of Star Wars movies in alphabet order!");
       //acess the toString
+      
       System.out.println(User.toString());
       //this is to get the user and ID 
       System.out.println ("You're ID is: "+dark.CreateUser());
       System.out.println ();//for space in console
       //A little small story
-      System.out.println("You are really something choosing a Sith name"+nam1+" and choosing your rank of "+ nam2+ "is amazing!");
-      System.out.println ("The clone wars was raging and the use of the" + nam6+ "of the Sith where behind it");
-      System.out.println ("There powers of "+nim2+"was a unnatural,but they made us murder our Jedi using order"+parsedNim2+".They made us murder us,why?");
+      System.out.println("You are really something choosing a Sith name "+nam1+" and choosing your rank of "+ nam2+ "is amazing!");
+      System.out.println ("The clone wars was raging and the use of the " + nam6+ " of the Sith where behind it");
+      System.out.println ("There powers of "+nim2+" was a unnatural,but they made us murder our Jedi using order "+parsedNim2+" .They made us murder us,why?");
       //end of the story
     }//end of if else
     else 
@@ -156,8 +158,8 @@ class Main
       System.out.println ("You're ID is: "+ universe.CreateUser());
       System.out.println ();//for space in console
       //A little small story
-      System.out.println ("You are really something choosing"+ nem1+ "as your army and "+nam1+" as your name and choosing your rank of "+ nam2+ "is amazing!");
-      System.out.println ("We had coutless battles insde our ship"+nem3+"winning every time that we could!");
+      System.out.println ("You are really something choosing"+ nem1+ "as your army and "+nam1+" as your name and choosing your rank of "+ nam2+ " is amazing!");
+      System.out.println ("We had coutless battles insde our ship "+nem3+" winning every time that we could!");
       System.out.println ("The war took down many of our ships,but we could never fail as for guns where warm each time seeing space brought a beutiful scene");
       //end of the story
     }//end of else
@@ -199,19 +201,19 @@ class Main
         exit = input.nextBoolean();//ask for t/f to continue
       }//end of file 
       
-    
-      System.out.println ();
+      Movies.sort(rename);//sort it to be alpohabetical
+      System.out.println ();//space
       //for each that print arraylist rename
       for (String i : rename)//makes copy
       {
         System.out.println (i);//prints i 
       }
    }
-   input.close();
+   input.close();//to close the scanner
     //this is what is enetered inside the method
-    System.out.println (memorablending("It has been some two amazing years in my CS classes,and as such good things they must come to an end to ealy, It has been a privillage and honor having my teacher who I nicknamed Empress,eventhough she liked Star Trek. I will miss her a lot because she is one of the teachers you will never forget in you life. As Jedi Master Ima-Gun Di said,Lets make the end memoreable! "));
+    System.out.println (memorablending("It has been some two amazing years in my CS classes,and as such good things they must come to an end to ealy. It has been a privillage and honor having my teacher who I nicknamed Empress Rioux,even though she liked Star Trek. I will miss her a lot because she is one of the teachers you will never forget in you life. As Jedi Master Ima-Gun Di said,Lets make the end memoreable! "));
     //this is what is entere int he method
-    System.out.println (memorablending ("May the force be with you!"));
+    System.out.println (memorablending ("May the force be with you ALWAYS!"));
    }
    //this method is to honor someone
    public static String memorablending(String comment)

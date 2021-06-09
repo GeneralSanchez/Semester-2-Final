@@ -16,6 +16,7 @@ public class Movies
     names.add ("Star Wars: The Force Awakens");
     names.add ("Star Wars: The Last Jedi");
     names.add ("Star Wars: The Rise of Skywalker");
+    Movies.sort(names);//to get things sorted by the method
  }
 //Order Methid check to see if the movies graded by the user
 //are lower than what is expected by me 

@@ -111,6 +111,7 @@ public abstract class Starwars
         "\nRank: " + rank+
         "\nisFan: " + isfan+
         "\nID: " + ID +
-        "\nhasSide: " + hasside;
+        "\nhasSide: " + hasside+
+        "\nWeapon: " + weapon;
     }
 }//end of Starwars class

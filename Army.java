@@ -13,17 +13,17 @@ public Army (String name,String rank,boolean isfan, int ID,boolean hasside,Strin
   this.year = year;
   this.ship = ship;
 }
-public Army(String type, String ship)
-{
-  this.type = "none";
-  this.year = 0;
-  this.ship = "nothing";
-}
-public Army ()
+public Army(String type,String ship)
 {
   this.type = type;
   this.year = 0;
   this.ship = ship;
+}
+public Army ()
+{
+  type = "nothing";
+  year = 0;
+  ship = "none";
 }
 
 //getter and setters that are ser
